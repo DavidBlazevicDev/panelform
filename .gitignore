@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/panelform-app/node_modules
+/client/panelform-app/.pnp
+/client/panelform-app/.pnp.js
+
+# testing
+/client/panelform-app/coverage
+
+# production
+/client/panelform-app/build
+
+# misc
+/client/panelform-app/.DS_Store
+/client/panelform-app/.env.local
+/client/panelform-app/.env.development.local
+/client/panelform-app/.env.test.local
+/client/panelform-app/.env.production.local
+
+/client/panelform-app/npm-debug.log*
+/client/panelform-app/yarn-debug.log*
+/client/panelform-app/yarn-error.log*
