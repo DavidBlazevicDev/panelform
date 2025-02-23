@@ -1,7 +1,6 @@
 # PanelForm App
 
 <img src="./panelform-app.png" width="1280"/>
-<br><br>
 
 # A Dockerised React Client & Node.js/Express Server.
 
