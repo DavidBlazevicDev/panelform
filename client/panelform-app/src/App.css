@@ -1,10 +1,27 @@
 .App {
   text-align: center;
+  background-color: #ed6223;
+  min-width: 100vw;
+  width: 100vw;
+  display: inline-flex;
+}
+
+.Panelform-text {
+  font-size: 16px;
+  text-align: justify;
+  max-width: 600px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
   pointer-events: none;
+}
+
+.Panelform-image {
+  width: 100%;
+  border: solid 6px #fff;
+  border-radius: 2px !important;
+  box-shadow: 8px 8px 8px #33333325;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +30,63 @@
   }
 } */
 
+/* Mobile Devices */
+
+@media (max-width: 767px) {
+  .App-header, .Panelform-box {
+    max-height: 50vh !important;
+    max-width: 90vw !important;
+    width: 90vw !important;
+    height: 50vh !important;
+  }
+  .App {
+    display: flow-root;
+    height: 100vh;
+  }
+
+}
+
+/* END */
+
 .App-header {
-  background-color: #ED6223;
-  min-height: 100vh;
+  align-items: start;
+  background-color: #ed6223;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
+  min-height: 100vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  max-width: 50vw;
+  width: 50vw;
 }
 
-.App-link {
+.Panelform-box {
+  align-items: center;
+  background-color: #ed6223;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  max-width: 50vw;
+  width: 50vw;
+}
+
+/*.App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
